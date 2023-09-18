@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test1">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="ahmetyilmaz2@gmail.com"></parameter>
+        <parameter name="password" value="123456Tuna."></parameter>
+
+        <classes>
+            <class name="FridayProject.FridayProject"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="ahmetyil2maz2@gmail.com"></parameter>
+        <parameter name="password" value="1234562Tuna."></parameter>
+
+        <classes>
+            <class name="FridayProject.FridayProject2"></class>
+        </classes>
+    </test>
+
+    <test name="test3">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="ahmetyilmaz2@gmail.com"></parameter>
+        <parameter name="password" value="123456Tuna."></parameter>
+
+        <classes>
+            <class name="FridayProject.FridayProject3"></class>
+        </classes>
+    </test>
+
+</suite>
